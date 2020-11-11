@@ -1,0 +1,207 @@
+@font-face{
+    font-family: 'Raleway-SemiBold';
+    src: url('Raleway-SemiBold.ttf');
+}
+@font-face{
+    font-family: 'Raleway-Medium';
+    src: url('Raleway-Medium.ttf');
+}
+@font-face{
+    font-family: 'Raleway-Thin';
+    src: url('Raleway-Thin.ttf');
+}
+@font-face{
+    font-family: 'Raleway-Regular';
+    src: url('Raleway-Regular.ttf');
+}
+*{
+    box-sizing: border-box;
+}
+
+#conteneur{
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 1400px;
+    width: 100%;
+    height: 600px;
+    justify-content: space-evenly;
+    
+}
+
+.element1{
+    display: flex;
+    flex-direction: column;
+    width: 65%;
+    height: 100%;
+    border-radius: 15px 15px 15px;
+    background-color: #f2f2f2;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+.element2{
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    height: 100%;
+    border-radius: 15px 15px 15px;
+    background-color: #f2f2f2;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+.Titre{
+    font-family: 'Raleway-SemiBold';
+    font-size: 20px;
+}
+
+.BulleGL{
+   
+   background-color: #f2f2f2;
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: space-between;
+   width: 100%;
+   height: 77%;
+}
+
+.BulleL{
+    background-color: white;
+    width: 30%;
+    height: 42%;
+    border-radius: 10%;
+}
+
+.BulleGR{
+    background-color: #f2f2f2;
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    height: 100%;  
+}
+
+.BulleR{
+    background-color: white;
+    width: 100%;
+    height: 27%;
+    border-radius: 20px;
+}
+
+body{
+    padding-right: 5px;
+    padding-left: 5px;
+}
+
+#logochart{
+    height: 20px;
+    width: 20px;
+}
+
+.flex{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.afficher{
+    font-family: 'Raleway-Bold';
+}
+
+.imgHeber{
+    width: 96%;
+    height: 57%;
+    margin: 4px;
+    border-radius: 15px 15px 0px 0px;
+}
+h4{
+    font-family: 'Raleway-Medium';
+    display: flex;
+}
+
+.logoR{
+    width: 7%;
+}
+
+header{
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+p{
+    font-family: 'Raleway-Thin';
+}
+
+.pligne{
+    display: flex;
+    justify-content: space-between;
+}
+
+.Activités{
+    display: flex;
+    justify-content: flex-end;
+    font-family: 'Raleway-Regular';
+    text-decoration: transparent;
+    color: grey;
+    margin-top: 10%;
+    margin-right: 20%;
+}
+.Hebergement{
+    display: flex;
+    justify-content: flex-end;
+    font-family: 'Raleway-Regular';
+    text-decoration: transparent;
+    color: #0065FC;
+    padding-top: 10%;
+    border-top: solid 2px #0065FC;
+    margin-right: 20%;
+}
+
+.Sinscrire{
+    display: flex;
+    justify-content: flex-end;
+    font-family: 'Raleway-Regular';
+    text-decoration: transparent;
+    color: #0065FC;
+    margin-top: 10%;
+    margin-right: 20%;
+}
+
+h3{
+    font-size: 21px;
+    font-family: 'Raleway-Medium';
+}
+
+.Link{
+    display: flex;
+    margin-right: 10%;
+}
+
+.champrecherche{
+    display: flex;
+    width: 80%;
+    height: 30px;
+    margin-bottom: 20px;
+}
+.maplogo{
+    width: 30%;
+}
+
+.maplog{
+    display: flex;
+    width: 3%;
+    height: 100%;
+    border-radius: 10px 0px 0px 10px;
+    background-color: #f2f2f2;
+    justify-content: center;
+}
+
+.search{
+    font-family: 'Raleway-Medium';
+    background-color: #0065fc;
+    border-radius: 0px 10px 10px 0px;
+    color: white;
+}
+
+.filtreLogo{
+    
+}
