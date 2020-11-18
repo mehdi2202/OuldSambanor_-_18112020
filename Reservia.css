@@ -50,12 +50,12 @@
     padding-right: 40px;
 }
 
-.Titre{
+.title{
     font-family: 'Raleway-SemiBold';
     font-size: 20px;
 }
 
-.BulleGL{
+.whole_place{
    
    background-color: #f2f2f2;
    display: flex;
@@ -65,14 +65,14 @@
    height: 77%;
 }
 
-.BulleL{
+.bloc_place{
     background-color: white;
     width: 30%;
     height: 42%;
     border-radius: 10%;
 }
 
-.BulleGR{
+.whole_popular{
     background-color: #f2f2f2;
     display: flex;
     flex-wrap: wrap;
@@ -80,7 +80,7 @@
     height: 100%;  
 }
 
-.BulleR{
+.bloc_popular{
     background-color: white;
     width: 100%;
     height: 27%;
@@ -119,7 +119,8 @@ h4{
 }
 
 .logoR{
-    width: 7%;
+    width: 90px;
+    height: 56px;
 }
 
 header{
@@ -136,7 +137,7 @@ p{
     justify-content: space-between;
 }
 
-.Activités{
+#activities{
     display: flex;
     justify-content: flex-end;
     font-family: 'Raleway-Regular';
@@ -145,7 +146,7 @@ p{
     margin-top: 10%;
     margin-right: 20%;
 }
-.Hebergement{
+#room{
     display: flex;
     justify-content: flex-end;
     font-family: 'Raleway-Regular';
@@ -156,7 +157,7 @@ p{
     margin-right: 20%;
 }
 
-.Sinscrire{
+#booking{
     display: flex;
     justify-content: flex-end;
     font-family: 'Raleway-Regular';
@@ -176,7 +177,7 @@ h3{
     margin-right: 10%;
 }
 
-.champrecherche{
+.search_bloc{
     display: flex;
     width: 80%;
     height: 30px;
@@ -199,9 +200,23 @@ h3{
     font-family: 'Raleway-Medium';
     background-color: #0065fc;
     border-radius: 0px 10px 10px 0px;
+    border: solid #0065fc;
     color: white;
 }
 
-.filtreLogo{
-    
+.filter_logo{
+    width: 23px;
+}
+
+.icone_filter{
+    display: flex;
+}
+
+.generale_filter{
+    display: flex;
+    justify-content: space-between;
+}
+
+#input_search{
+    font-family: 'Raleway-Medium';
 }
