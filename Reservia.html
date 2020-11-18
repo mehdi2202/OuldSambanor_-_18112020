@@ -1,113 +1,110 @@
 <!DOCTYPE html>
-<html>
+<html lang="fr"> 
 
-    <head>
-        <meta charset="utf-8">
-        <link rel="stylesheet" href="cssflex.css">
-    </head>
-
-    <body>
+<head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="cssflex.css">
+    <title>Reservia</title>
+    <link rel="shortcut icon" type="image/png" href="Reservia@3x.png">
+</head>
+<body>
+        <!--Header-->
         <header>
             <div class="pligne">
                 <img src="Reservia@3x.png" alt="logo" class="logoR">
-                    <div class="Link">
-                        <a href="hebergements.html" class="Hebergement">Hébergements</a>
-                        <a href="Activités.html" class="Activités">Activités</a>
-                        <a href="S'inscrire.html" class="Sinscrire">S'inscrire</a>
-                    </div>   
+                <nav>
+                    <ul class="Link">
+                        <a href="hebergements.html" id="room">Hébergements</a>
+                        <a href="Activités.html" id="activities">Activités</a>
+                        <a href="S'inscrire.html" id="booking">S'inscrire</a>
+                    </ul>
+                </nav>   
             </div>
             <h3>Trouvez votre hébergement pour des vacances de rêve</h3>
             <p>En plein centre ville ou en pleine nature</p>
             
-            <div class="champrecherche">
+            <div class="search_bloc">
                 <div class="maplog">
                     <img src="recherchemap.svg" alt="map" class="maplogo">
                 </div>            
-                <input type="search"/>
+                <input id=input_search type="search" value="Marseille, France"/>
                 <button class="search">Rechercher</button>
             </div>
 
-            <div class="Filtre">
+            <ul class="generale_filter">
                 <h4>Filtres</h4>
-                <div class="IconeF">
-                    <img src="money.svg" alt="money" class="filtreLogo">
+                <li class="icone_filter">
+                    <img src="money.svg" alt="money" class="filter_logo">
                     <h4>Economique</h4>
-                </div>
-                <div class="IconeF">
-                    <img src="child-solid.svg" alt="child" class="filtreLogo">
+                </li>
+                <li class="icone_filter">
+                    <img src="child-solid.svg" alt="child" class="filter_logo">
                     <h4>Familial</h4>
-                </div>
-                <div class="IconeF">
-                    <img src="heart-solid.svg" alt="heart" class="filtreLogo">
+                </li>
+                <li class="icone_filter">
+                    <img src="heart-solid.svg" alt="heart" class="filter_logo">
                     <h4>Romantique</h4>
-                </div>
-                <div class="IconeF">
-                    <img src="dog-solid.svg" alt="dog" class="filtreLogo">
+                </li>
+                <li class="icone_filter">
+                    <img src="dog-solid.svg" alt="dog" class="filter_logo">
                     <h4>Animaux autorisés</h4>
-                </div>
-            </div>
+                </li>
+            </ul>
 
         </header>
-
+        <!--End Header-->
         <section>
         
-                <div id="conteneur">
-
-                        <div class="element1">
-                            <p class="Titre">Hébergements à Marseille</p>
+                <main id="conteneur">
+                    <!--Place in Marseille-->
+                        <article class="element1">
+                            <p class="title">Hébergements à Marseille</p>
                             
-                                <div class="BulleGL">
-                                    <div class="BulleL">
+                                <div class="whole_place">
+                                    <figure class="bloc_place">
                                         <img src="AubergeLaCannebiere.jpg" alt="auberge" class="imgHeber">
                                         <h4>Auberge la Cannebière</h4>
                                         <p>Nuit à partir de 25€</p>
-                                    </div>
+                                    </figure>
 
-                                    <div class="BulleL">
+                                    <figure class="bloc_place">
                                         <img src="HotelDuPort.jpg" alt="HdP" class="imgHeber">
-                                    </div>
+                                    </figure>
 
-                                    <div class="BulleL">
+                                    <figure class="bloc_place">
                                         <img src="HotelLesMouettes.jpg" alt="HlM" class="imgHeber">
-                                    </div>
+                                    </figure>
 
-                                    <div class="BulleL">
+                                    <figure class="bloc_place">
                                         <img src="HotelDeLaMer.jpg" alt="HdM" class="imgHeber">
-                                    </div>
+                                    </figure>
 
-                                    <div class="BulleL">
+                                    <figure class="bloc_place">
                                         <img src="AubergeLePanier.jpg" alt="AlP" class="imgHeber">
-                                    </div>
+                                    </figure>
 
-                                    <div class="BulleL">
+                                    <figure class="bloc_place">
                                         <img src="HotelChezAmina.jpg" alt="HcA" class="imgHeber">
-                                    </div>
-                                    
-                                    
+                                    </figure>                                    
                                 </div>
-                            
-
-                        </div>
-
-
-                        <div class="element2">
+                        </article>
+                    <!--End place in Marseille-->
+                    <!--Most Popular-->
+                        <aside class="element2">
 
                             <div class="flex">
-                                <p class="Titre">Les plus populaires</p> 
+                                <p class="title">Les plus populaires</p> 
                                 <img src="chart.svg" alt="chart" id="logochart">
-
                             </div> 
 
-                            <div class="BulleGR">
-                                    <div class="BulleR"></div>
-                                    <div class="BulleR"></div>
-                                    <div class="BulleR"></div>
+                            <div class="whole_popular">
+                                    <div class="bloc_popular"></div>
+                                    <div class="bloc_popular"></div>
+                                    <div class="bloc_popular"></div>
                             </div>
-
-                        </div>
-                </div>
-
+                        </aside>
+                    <!--End Most Popular-->
+                </main>
         </section>
-    </body>
-
+</body>
 </html>
