@@ -1,0 +1,273 @@
+@font-face{
+    font-family: 'Raleway-SemiBold';
+    src: url('Raleway-SemiBold.ttf');
+}
+@font-face{
+    font-family: 'Raleway-Medium';
+    src: url('Raleway-Medium.ttf');
+}
+@font-face{
+    font-family: 'Raleway-Thin';
+    src: url('Raleway-Thin.ttf');
+}
+@font-face{
+    font-family: 'Raleway-Regular';
+    src: url('Raleway-Regular.ttf');
+}
+*{
+    box-sizing: border-box;
+}
+
+/* Header */
+body{
+    margin-top: 0px;
+}
+
+header{
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+.pligne{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 40px;
+}
+
+h1{
+    font-size: 21px;
+    font-family: 'Raleway-Medium';
+}
+
+.logo_Reservia{
+    width: 90px;
+    height: 45px;
+    margin-top: 18px;
+}
+
+.link_top{
+    display: flex;
+    margin-right: 10%;
+    margin-top: 0px;
+}
+nav{
+    margin-top: 0px;
+}
+
+#room{
+    display: flex;
+    justify-content: flex-end;
+    font-family: 'Raleway-Regular';
+    text-decoration: transparent;
+    color: #0065FC; 
+    margin-right: 60px;
+    padding-top: 29px;
+}
+
+nav #room:hover{
+    border-top: #0065fc 2px solid;
+    padding-top: 27px;
+}
+
+#activities{
+    display: flex;
+    justify-content: flex-end;
+    font-family: 'Raleway-Regular';
+    text-decoration: transparent;
+    color: grey;
+    margin-right: 60px;
+    padding-top: 29px;
+}
+
+#booking{
+    display: flex;
+    justify-content: flex-end;
+    font-family: 'Raleway-Regular';
+    text-decoration: transparent;
+    color: #0065FC;
+    padding-top: 29px;
+}
+
+.search_block{
+    display: flex;
+    width: 80%;
+    height: 30px;
+    margin-bottom: 20px;
+}
+
+.maplog{
+    display: flex;
+    width: 3%;
+    height: 100%;
+    border-radius: 10px 0px 0px 10px;
+    background-color: #f2f2f2;
+    justify-content: center;
+}
+
+.maplogo{
+    width: 30%;
+}
+
+#input_search{
+    font-family: 'Raleway-Medium';
+}
+
+.search{
+    font-family: 'Raleway-Medium';
+    background-color: #0065fc;
+    border-radius: 0px 10px 10px 0px;
+    border: solid #0065fc;
+    color: white;
+}
+
+.generale_filter{
+    display: flex;
+    align-items: center;
+    padding-left: 0px;
+
+}
+
+h2{
+    font-family: 'Raleway-Medium';
+    display: flex;
+    font-size: 17px;
+}
+
+ul{
+    list-style-type: none;
+    display: flex;
+}
+
+.icone_filter{
+    height: 41px;
+    display: flex;
+    margin-left: 35px;
+    margin-right: 20px;
+    border: #F2F2F2 1px solid;
+    border-radius: 20px 20px 20px 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.icone_filter:hover{
+    background-color:#0065FC;
+}
+
+.filter_logo{
+    width: 23px;
+    margin-right: 12px;
+    margin-right: 12px;
+    padding: 10px;
+    background-color: #DEEBFF;
+    border-radius: 20px 20px 20px 20px;
+    text-align: center;
+    color: #0065FC;
+    border: 1px solid #F2F2F2;
+    height: 40px;
+    width: 40px;
+    margin-left: -12px;
+}
+
+/* End Header */
+
+main{
+    display: flex;
+    padding-left: 25px;
+    padding-right: 25px;
+    margin-bottom: 15px;  
+}
+/* Place Marseille */
+.place_marseille{
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+    border-radius: 15px 15px 15px;
+    background-color: #f2f2f2;
+}
+
+.title_place{
+    font-family: 'Raleway-SemiBold';
+    font-size: 20px;
+    padding-left: 40px;
+}
+
+.block_place{
+     background-color: white;
+     width: 220px;
+     height: 200px;
+     border-radius: 10%;
+}
+
+.pic_hebergement{
+    width: 96%;
+    height: 57%;
+    margin: 4px;
+    border-radius: 15px 15px 0px 0px;
+}
+/* End place Marseille */
+
+/* Most Popular */
+.popular{
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    border-radius: 15px 15px 15px;
+    background-color: #f2f2f2;
+    padding-left: 40px;
+    padding-right: 40px;
+    margin-left: 33px;
+}
+
+.flex{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.title_pop{
+    font-family: 'Raleway-SemiBold';
+    font-size: 20px;
+}
+
+#logochart{
+    height: 20px;
+    width: 20px;
+}
+
+.block_popular{
+    background-color: white;
+    width: 100%;
+    height: 150px;
+    border-radius: 20px;
+    margin-bottom: 30px;
+}
+/* End Popular */ 
+
+
+p{
+    font-family: 'Raleway-Thin';
+}
+
+
+/* Footer */
+footer{
+background-color: #F2F2F2;
+width: 100%;
+display: flex;
+flex-flow: row wrap;
+}
+
+footer ul{
+    display: flex;
+    flex-direction: column;
+    padding-right: 180px;
+    padding-top: 15px;
+    font-family: 'Raleway-Regular';
+}
+footer li{
+    padding-bottom: 7px;
+}
+.bold{
+    font-weight: bold;
+    padding-bottom: 16px;
+}
+/* End Footer */
