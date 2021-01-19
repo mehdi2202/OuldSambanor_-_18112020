@@ -1,4 +1,3 @@
-# P2_OuldSambanor_Mehdi
 Projet 2: Transformer une maquette en site web
 
 Projet Reservia
